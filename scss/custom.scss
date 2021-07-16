@@ -1,0 +1,56 @@
+/*!
+ * Custom SCSS for Bootstrap
+ * No copyright 2021 - Zed's Dead
+ */
+
+// $REQUIRED functions
+@import "node_modules/bootstrap/scss/functions";
+
+// ------------------------------------------------ \\
+// $CUSTOM VARIABLE OVERRIDES
+// Here my variables
+// ------------------------------------------------ \\
+
+// $REQUIRED Bootstrap
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// ------------------------------------------------ \\
+// $CUSTOM - Remove default colors
+// $theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+// $HELP - Tint or shade to mix colors w/ white or black
+// color: tint-color($primary, 10%);
+// color: shade-color($danger, 30%);
+
+// $CUSTOM - Colors map
+$custom-colors: (
+  "nsd-primary":#c52525
+);
+
+// $CUSTOM - Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+// ------------------------------------------------ \\
+
+// $OPTIONAL Bootstrap components
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/containers";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/helpers/clearfix";
+@import "node_modules/bootstrap/scss/helpers/colored-links";
+@import "node_modules/bootstrap/scss/helpers/position";
+@import "node_modules/bootstrap/scss/helpers/visually-hidden";
+@import "node_modules/bootstrap/scss/navbar";
+
+// ------------------------------------------------ \\
+// $CUSTOM additional code
+// Here my code
+// ------------------------------------------------ \\
+
+/*!
+ * Who's Zed?
+ * Zed's dead baby. Zed's dead.
+ */

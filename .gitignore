@@ -1,6 +1,7 @@
-__design/
-__spectre/
 _site/
+scss/node_modules
+scss/package.json
+scss/package-lock.json
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
