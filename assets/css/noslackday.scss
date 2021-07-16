@@ -1,54 +1,77 @@
+---
+---
+
 /*!
- * Custom SCSS for Bootstrap
+ * Custom SCSS based on Bootstrap
  * No copyright 2021 - Zed's Dead
  */
 
+// ------------------------------------------------ \\
 // $REQUIRED functions
+// ------------------------------------------------ //
 @import "node_modules/bootstrap/scss/functions";
 
 // ------------------------------------------------ \\
 // $CUSTOM VARIABLE OVERRIDES
-// Here my variables
-// ------------------------------------------------ \\
+// ------------------------------------------------ //
+$primary: #c52525;
+$secondary: pink;
+$nav-link-color: tint-color($secondary, 14%);
+$nav-link-hover-color: white;
 
+// ------------------------------------------------ \\
 // $REQUIRED Bootstrap
+// ------------------------------------------------ //
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/utilities";
 
 // ------------------------------------------------ \\
-// $CUSTOM - Remove default colors
-// $theme-colors: map-remove($theme-colors, "info", "light", "dark");
-
+// $CUSTOM - Colors
+// ------------------------------------------------ //
+// Remove default colors
+$theme-colors: map-remove($theme-colors, "success", "info", "warning", "danger", "light", "dark");
+// Colors map
+// $custom-colors: (
+//   "nsd-primary":#c52525
+// );
+// // Merge the maps
+// $theme-colors: map-merge($theme-colors, $custom-colors);
 // $HELP - Tint or shade to mix colors w/ white or black
 // color: tint-color($primary, 10%);
 // color: shade-color($danger, 30%);
 
-// $CUSTOM - Colors map
-$custom-colors: (
-  "nsd-primary":#c52525
-);
-
-// $CUSTOM - Merge the maps
-$theme-colors: map-merge($theme-colors, $custom-colors);
 // ------------------------------------------------ \\
+// $CUSTOM - Fonts
+// ------------------------------------------------ //
+$initialism-font-size: $font-size-base;
+$letter-spacing-wide: 1px;
+$letter-spacing-shrink: -1px;
 
+// ------------------------------------------------ \\
 // $OPTIONAL Bootstrap components
+// ------------------------------------------------ //
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/buttons";
 @import "node_modules/bootstrap/scss/containers";
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/helpers/clearfix";
 @import "node_modules/bootstrap/scss/helpers/colored-links";
 @import "node_modules/bootstrap/scss/helpers/position";
 @import "node_modules/bootstrap/scss/helpers/visually-hidden";
+@import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/utilities/api";
 
 // ------------------------------------------------ \\
 // $CUSTOM additional code
-// Here my code
 // ------------------------------------------------ \\
+@import "zed-functions";
+@import "zed-mixins";
+@import "zed-theme";
 
 /*!
  * Who's Zed?

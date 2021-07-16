@@ -1,21 +1,10 @@
-<header id="header" class="p-fixed">
-  
-  <div class="container grid-xl">
-    
-    <div class=columns>
-      <div class="column col-6 col-xl-6 col-sm-6">
-        <h1 class="zed--nsd-logo"><a href="#top" title="{{ page.title }}"><img src="/assets/img/noslackday-logo.png" alt="{{ page.title }}"></a></h1>
-      </div>
-      <div class="column col-6 col-xl-6 col-sm-6 text-right">
-        <div class="zed--nsd-navigation off-canvas off-canvas-sidebar-show"><a class="off-canvas-toggle btn-action" href="#zed--nsd-navigation"><i class="icon icon-2x icon-menu"></i></a>
-          <div class="off-canvas-sidebar" id="zed--nsd-navigation">
-            {% include navigation.html %}
-          </div>
-          <a class="off-canvas-overlay" href="#close"></a>
-        </div>
-      </div>
+<header id="header" class="bg-primary sticky-top">
+  <div class="container">
+    <div class="d-flex flex-wrap justify-content-center py-3 mb-4">
+      <a href="#top" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none" title="{{ page.title }}">
+        <img src="/assets/img/noslackday-logo.png" alt="{{ page.title }}" class="zed--nsd-logo">
+      </a>
+      {% include navigation.html %}
     </div>
-    
   </div>
-
 </header>

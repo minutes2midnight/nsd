@@ -7,4 +7,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
 
+exclude:
+  - _sass/node_modules
+
 host: 0.0.0.0

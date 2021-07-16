@@ -4,10 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/zed-nsd.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/noslackday.css' | relative_url }}" />
     {% seo %}
   </head>
   <body><a id="top" class="zed--anchor-local"></a>
-    {{ content }}
+    <main>
+      {{ content }}
+    </main>
+    <!-- Who's Zed? -->
+    <!-- Zed's dead, baby. Zed's dead. -->
   </body>
 </html>
