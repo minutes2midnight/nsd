@@ -1,0 +1,5 @@
+<nav class="zed--nsd-nav">
+  {% for item in site.data.navigation %}
+  <a href="{{ item.link }}" class="nav-item on-dark">{{ item.name }}</a>
+  {% endfor %}
+</nav>

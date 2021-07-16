@@ -1,4 +1,7 @@
+__design/
+__spectre/
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.vscode
