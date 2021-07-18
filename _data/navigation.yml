@@ -1,6 +1,11 @@
+# --------------------------------
+# NOTE
+# --------------------------------
+# This is currently not being used
+# --------------------------------
 - name: Why
-  link: /#why
+  link: index.html#why
 - name: August 26th
-  link: /#august26
+  link: index.html#august26
 - name: Share
-  link: /#share
+  link: index.html#share
