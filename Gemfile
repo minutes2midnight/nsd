@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-git_source(:github) { |nsd| "https://github.com/#{nsd}" }
+# git_source(:github) { |nsd| "https://github.com/#{nsd}" }
 
 gem "jekyll"
 

@@ -1,6 +1,9 @@
 _site/
 _sass/
 .sass-cache/
+.css-purge.txt
 .jekyll-cache/
 .jekyll-metadata
-.vscode
+js/
+build/
+node_modules/

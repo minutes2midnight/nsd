@@ -1,6 +1,3 @@
----
----
-
 /*!
  * Custom SCSS based on Bootstrap
  * No copyright 2021 - Zed’s Dead
@@ -9,7 +6,7 @@
 // ------------------------------------------------ \\
 // $REQUIRED functions
 // ------------------------------------------------ //
-@import "node_modules/bootstrap/scss/functions";
+@import "bootstrap/functions";
 
 // ------------------------------------------------ \\
 // $CUSTOM VARIABLE OVERRIDES
@@ -24,9 +21,9 @@ $font-weight-black: 900;
 // ------------------------------------------------ \\
 // $REQUIRED Bootstrap
 // ------------------------------------------------ //
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/mixins";
-@import "node_modules/bootstrap/scss/utilities";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
 
 // ------------------------------------------------ \\
 // $CUSTOM - Colors
@@ -54,20 +51,20 @@ $letter-spacing-shrink: -1px;
 // ------------------------------------------------ \\
 // $OPTIONAL Bootstrap components
 // ------------------------------------------------ //
-@import "node_modules/bootstrap/scss/root";
-@import "node_modules/bootstrap/scss/reboot";
-@import "node_modules/bootstrap/scss/type";
-@import "node_modules/bootstrap/scss/images";
-@import "node_modules/bootstrap/scss/buttons";
-@import "node_modules/bootstrap/scss/containers";
-@import "node_modules/bootstrap/scss/grid";
-@import "node_modules/bootstrap/scss/helpers/clearfix";
-@import "node_modules/bootstrap/scss/helpers/colored-links";
-@import "node_modules/bootstrap/scss/helpers/position";
-@import "node_modules/bootstrap/scss/helpers/visually-hidden";
-@import "node_modules/bootstrap/scss/nav";
-@import "node_modules/bootstrap/scss/navbar";
-@import "node_modules/bootstrap/scss/utilities/api";
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/buttons";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+@import "bootstrap/helpers/clearfix";
+@import "bootstrap/helpers/colored-links";
+@import "bootstrap/helpers/position";
+@import "bootstrap/helpers/visually-hidden";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/utilities/api";
 
 // ------------------------------------------------ \\
 // $CUSTOM additional code
