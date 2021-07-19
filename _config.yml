@@ -7,6 +7,14 @@ defaults:
 plugins:
   - jekyll-seo-tag
 
+description: Get a taste of productivity back. Turn off Slack for a day on August 26th.
+
+twitter:
+  username: noslackday
+  card: summary
+
+logo: /apple-touch-icon.png
+
 exclude:
   - _sass/node_modules
 
