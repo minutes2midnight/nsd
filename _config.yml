@@ -7,7 +7,9 @@ defaults:
 plugins:
   - jekyll-seo-tag
 
-description: Get a taste of productivity back. Turn off Slack for a day on August 26th.
+title: Get a taste of productivity back!
+
+description: Turn off Slack for a day on August 26th.
 
 twitter:
   username: noslackday
