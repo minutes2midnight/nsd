@@ -1,9 +1,7 @@
-_site/
-_sass/
-.sass-cache/
-.css-purge.txt
-.jekyll-cache/
-.jekyll-metadata
-/js/
+/.jekyll-cache/
+/_site/
 /build/
+/js/
 /node_modules/
+.css-purge.txt
+.jekyll-metadata
