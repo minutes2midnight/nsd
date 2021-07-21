@@ -729,6 +729,10 @@ header {
     padding: 70px 0 0 0;
   }
 }
+.zedsdead {
+  color: #cc9aa2;
+}
+
 .text-weight-black {
   font-weight: 900 !important;
 }
