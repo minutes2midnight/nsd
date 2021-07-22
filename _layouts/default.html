@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ page.title }}</title>
 {% if jekyll.environment == "production" %}
-<link rel="stylesheet" href="{{ 'dist/css/zed.min.css' }}">
+<link rel="stylesheet" href="{{ site.url }}/dist/css/zed.min.css">
 {% else %}
-<link rel="stylesheet" href="{{ 'dist/css/zed.css' }}">
+<link rel="stylesheet" href="{{ site.url }}/dist/css/zed.css">
 {% endif %}
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -22,7 +22,7 @@
   <main>
     {{ content }}
   </main>
-  <script src="{{ 'dist/js/bootstrap.min.js' }}"></script>
+  <script src="{{ site.url }}/dist/js/bootstrap.min.js"></script>
   <script>
     var scrollSpy = new bootstrap.ScrollSpy(document.body, {
       target: '#navbar'
