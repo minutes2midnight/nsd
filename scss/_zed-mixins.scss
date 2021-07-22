@@ -1,8 +1,0 @@
-// ------------------------------------------------ \\
-// $ZED - Mixins
-// ------------------------------------------------ \\
-
-@mixin imgSize($sizeW, $sizeH) {
-  width: rfs-value($sizeW) + 'px';
-  height: rfs-value($sizeH) + 'px';
-}
