@@ -1,7 +1,14 @@
 /.jekyll-cache/
 /_site/
 /build/
+/dist/css/zed.css
+/dist/css/zed.css.map
+/dist/js/bootstrap.js
+/dist/js/bootstrap.js.map
 /js/
 /node_modules/
+/scss/
 .css-purge.txt
 .jekyll-metadata
+package.json
+package-lock.json
