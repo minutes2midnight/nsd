@@ -1,7 +1,15 @@
 <div id="navbar">
   <nav class="nav nav-pills">
+    {% if page.url == "/press/" %}
+    <a class="nav-link initialism text-spacing-wide-1" href="{{ site.url }}#why"><strong>Why</strong></a>
+    <a class="nav-link initialism text-spacing-wide-1" href="{{ site.url }}#august26"><strong>August 26th</strong></a>
+    <a class="nav-link initialism text-spacing-wide-1" href="{{ site.url }}#share"><strong>Share</strong></a>
+    <a class="nav-link initialism text-spacing-wide-1 active" href="/press/"><strong>Press</strong></a>
+    {% else %}
     <a class="nav-link initialism text-spacing-wide-1" href="#why"><strong>Why</strong></a>
     <a class="nav-link initialism text-spacing-wide-1" href="#august26"><strong>August 26th</strong></a>
     <a class="nav-link initialism text-spacing-wide-1" href="#share"><strong>Share</strong></a>
+    <a class="nav-link initialism text-spacing-wide-1" href="/press/"><strong>Press</strong></a>
+    {% endif %}
   </nav>
 </div>
