@@ -1,3 +1,3 @@
 # No Slack Day
 
-Turn off Slack for a day. 26th of August.
+Turn off Slack for a day. August 26th.
